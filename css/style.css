@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* ========================= */
+/* ===== Header styles ===== */
+/* ========================= */
+.header {
+  font-weight: bold;
+  color: #8195B4;
+  margin-bottom: 0;
+}
+
+.motivation {
+  margin-top: 0;
+  color: #DAB170;
+}
+
+
+/* ================================== */
+/* ====== Shopping List styles ====== */
+/* ================================== */
+#list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* ========================== */
+/* ====== Input styles ====== */
+/* ========================== */
+#userinput {
+  max-width: 400px;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+}
+
+#enter {
+  font-size: 18px;
+  padding: 12px 16px 12px 16px;
+}
+
+/* ========================= */
+/* ====== List styles ====== */
+/* ========================= */
+ul {
+  margin: 0 auto;
+  padding: 12px 8px 12px 0px;;
+}
+
+ul li {
+  margin: 0;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  list-style-type: none;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: left;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 14px 16px;
+  transition: 0.5s;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+ul li span:hover {
+  background-color: #FFB1B1;
+}
+
+ul li.done {
+  text-decoration: line-through;
+  background: #888;
+  color: #fff;
+}
+
+ul li:hover {
+  background: #ddd;
+}
